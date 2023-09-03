@@ -26,7 +26,7 @@ export const Navbar = ({
     return (
         <div className="z-50 h-16 w-full fixed flex justify-between items-center py-2 px-4 border-b border-primary/10 bg-secondary">
             <div className="flex items-center">
-                <MobileSidebar isPro />
+                <MobileSidebar isPro={isPro} />
                 <Link href="/">
                     <h1 className={cn("hidden md:block text-xl md:text-3xl font-bold text-primary", font.className)}>
                         companion.ai
